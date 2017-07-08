@@ -37,5 +37,3 @@ function styles_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'styles_scripts' );
 
-flush_rewrite_rules();
-
