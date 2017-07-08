@@ -25,7 +25,7 @@ if ( ! function_exists( 'setup' ) ) :
   }
 endif;
 
-  add_action( 'after_setup_theme', 'setup' );
+add_action( 'after_setup_theme', 'setup' );
 
 // Enqueue scripts and styles.
 function styles_scripts() {
